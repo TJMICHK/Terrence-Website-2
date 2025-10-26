@@ -1,15 +1,15 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Keypad Led Buzzer System
+subtitle: Arduino Project
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: keypad-project.png
+thumbnail: keypad-project.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: October 2025
+client: Myself
+category: Embedded & Integrated Systems
+description: Arduino project that reads a 4×4 matrix keypad and gives feedback with an LED and a piezo buzzer. It’s designed as a simple “enter code → success/fail beep with LED” system. https://github.com/TJMICHK/Keypad_Led_Buzzer_System
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Round Icons
+title: WIP 2
 subtitle: Graphic Design
 layout: default
 modal-id: 6
