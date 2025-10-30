@@ -1,15 +1,15 @@
 ---
 title: NASA Space Grant Rover
-subtitle: Website Design
+subtitle: Nasa Funded Project
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+date: 2025-9-01
+img: nasa.png
+thumbnail: nasa.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: August 2025 - April 2016
+client: Nasa
+category: Programming and Embedded and Integrated Systems
+description: Space Grant is a state-wide program that provides Colorado students access to space through innovative courses, real-world hands-on satellite programs, and interactive outreach programs. I take part in the Robotics challenge as a part of the programming team, with an emphasis in embedded and integrated systems, which has the goal of creating an autonomous rover that is most efficient in navigating through rough terrain. 
 
 ---
