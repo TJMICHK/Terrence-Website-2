@@ -1,15 +1,15 @@
 ---
 title: Range Based Alarm System
-subtitle: Website Design
+subtitle: Arduino Project
 layout: default
 modal-id: 4
-date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+date: 2025-10-15
+img: range-based-alarm.png
+thumbnail: range-based-alarm.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: October 2025
+client: Myself
+category: Embedded & Integrated Systems
+description: Arduino sketch that turns on a red LED and sounds a piezo buzzer when an object is within a set distance
 
 ---

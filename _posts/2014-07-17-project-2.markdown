@@ -3,7 +3,7 @@ title: Sequential LED Controller w/ LED Level Detector
 subtitle: Arduino Project
 layout: default
 modal-id: 2
-date: 2014-07-17
+date: 2025-09-24
 img: Sequential-LED.png
 thumbnail: Sequential-LED.png
 alt: image-alt
