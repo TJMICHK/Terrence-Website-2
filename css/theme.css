@@ -1,0 +1,113 @@
+/* Theme variables and light/dark mode overrides */
+:root {
+  --page-bg: #fff;
+  --text-color: #{{ site.data.template.color.secondary-dark }};
+  --muted: #{{ site.data.template.color.muted }};
+  --primary: #{{ site.data.template.color.primary }};
+  --secondary: #{{ site.data.template.color.secondary }};
+  --nav-bg: #222;
+  --nav-text: #fff;
+  --header-text: #fff;
+  --section-bg: #f7f7f7;
+  --close-color: #222; /* default close X color for light theme */
+  --star-color: #000; /* decorative hr color (black for light mode) */
+}
+
+/* Apply variables */
+body {
+  background-color: var(--page-bg);
+  color: var(--text-color);
+}
+
+.text-muted {
+  color: var(--muted);
+}
+
+.bg-light-gray {
+  background-color: var(--section-bg);
+}
+
+.navbar-default {
+  background-color: var(--nav-bg);
+}
+
+.navbar-default .nav li a {
+  color: var(--nav-text);
+}
+
+header {
+  color: var(--header-text);
+}
+
+/* Make portfolio captions follow the theme so text remains readable */
+#portfolio .portfolio-item .portfolio-caption {
+  background-color: var(--page-bg);
+  color: var(--text-color);
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  color: var(--text-color);
+  background-color: transparent;
+}
+
+/* Ensure portfolio modal content follows theme (keeps text readable when dark) */
+.portfolio-modal .modal-content {
+  background-color: var(--page-bg);
+  color: var(--text-color);
+}
+
+.portfolio-modal .modal-content h2,
+.portfolio-modal .modal-content p,
+.portfolio-modal .modal-content .item-intro {
+  color: var(--text-color);
+}
+
+.portfolio-modal .close-modal .lr {
+  /* use the theme-aware close color and make the line a bit thicker for visibility */
+  background-color: var(--close-color) !important;
+  width: 3px !important;
+}
+
+/* Make the decorative rule under modal titles match the title color */
+.portfolio-modal .modal-content hr.star-primary {
+  display: block;
+  border: 0;
+  height: 4px !important; /* slightly thicker so it's visible */
+  background: var(--star-color) !important;
+  margin: 16px auto 26px;
+  max-width: 220px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.06) inset; /* subtle edge so it shows on very light backgrounds */
+  opacity: 1 !important;
+}
+
+/* Ensure the second line of the X matches */
+.portfolio-modal .close-modal .lr .rl {
+  background-color: var(--close-color) !important;
+  width: 3px !important;
+}
+
+.portfolio-modal .close-modal {
+  opacity: 1 !important;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.95 !important;
+}
+
+/* Dark theme: toggle by adding `dark-theme` class to the <body> */
+/* Dark theme: toggle by adding `dark-theme` class to the <body> or <html> */
+body.dark-theme,
+html.dark-theme {
+  --page-bg: #0f1113;
+  --text-color: #e6e6e6;
+  --muted: #b5b5b5;
+  --nav-bg: #111;
+  --nav-text: #e6e6e6;
+  --header-text: #fff;
+  --section-bg: #1a1a1a;
+  --close-color: var(--text-color); /* light X in dark mode */
+  --star-color: var(--text-color); /* use light color for the hr in dark mode */
+}
+
+/* Small helper so the toggle button sits nicely */
+#theme-toggle { padding:6px 10px; }

@@ -9,6 +9,9 @@
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
+    <!-- Apply saved/preferred theme as early as possible to avoid flash of wrong theme -->
+    <script>/* inline: set dark-theme class early so theme.css can take effect immediately */(function(){try{var s=null;try{s=localStorage.getItem('theme')}catch(e){s=null}var prefers=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches);if(s==='dark'||(!s&&prefers)){document.documentElement.classList.add('dark-theme');} }catch(e){} })();</script>
+    <link rel="stylesheet" href="{{ "/css/theme.css" | prepend: site.baseurl }}">
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
