@@ -29,6 +29,12 @@
                                     <strong>{{ post.category }}
                                     </strong>
                                 </li>
+                                {% if post.link %}
+                                <li>Project Link:
+                                    <strong><a href="{{ post.link }}" target="_blank" rel="noopener noreferrer">View Project</a>
+                                    </strong>
+                                </li>
+                                {% endif %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>

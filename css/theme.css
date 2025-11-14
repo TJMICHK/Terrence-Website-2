@@ -1,4 +1,5 @@
 /* Theme variables and light/dark mode overrides */
+/* Creates the variables used for theming the site based on light/dark mode */
 :root {
   --page-bg: #fff;
   --text-color: #{{ site.data.template.color.secondary-dark }};
