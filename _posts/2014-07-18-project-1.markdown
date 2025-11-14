@@ -11,5 +11,6 @@ project-date: August 2025 - April 2016
 client: Nasa
 category: Programming and Embedded and Integrated Systems
 description: Space Grant is a state-wide program that provides Colorado students access to space through innovative courses, real-world hands-on satellite programs, and interactive outreach programs. I take part in the Robotics challenge as a part of the programming team, with an emphasis in embedded and integrated systems, which has the goal of creating an autonomous rover that is most efficient in navigating through rough terrain. 
+link: https://www.colorado.edu/center/spacegrant/
 
 ---

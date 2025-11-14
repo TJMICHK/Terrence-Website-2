@@ -10,6 +10,7 @@ alt: image-alt
 project-date: September 2025
 client: Myself
 category: Embedded & Integrated Systems
-description: Arduino sketch that steps multiple LEDs in sequence with adjustable timing, and responds if LED Levels are above or below a set value. https://github.com/TJMICHK/Sequential-LED-Controller
+description: Arduino sketch that steps multiple LEDs in sequence with adjustable timing, and responds if LED Levels are above or below a set value.
+link: https://github.com/TJMICHK/Sequential-LED-Controller
 
 ---

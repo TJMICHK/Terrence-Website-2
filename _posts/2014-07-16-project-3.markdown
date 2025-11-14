@@ -10,6 +10,6 @@ alt: image-alt
 project-date: October 2025
 client: Myself
 category: Embedded & Integrated Systems
-description: Arduino project that reads a 4×4 matrix keypad and gives feedback with an LED and a piezo buzzer. It’s designed as a simple “enter code → success/fail beep with LED” system. https://github.com/TJMICHK/Keypad_Led_Buzzer_System
-
+description: Arduino project that reads a 4×4 matrix keypad and gives feedback with an LED and a piezo buzzer. It’s designed as a simple “enter code → success/fail beep with LED” system.
+link: https://github.com/TJMICHK/Keypad_Led_Buzzer_System
 ---
